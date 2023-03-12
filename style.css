@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+img{
+    height: auto;
+    width: 150px;
+    }
+h3{
+    color: aquamarine;
+    font-family: 'Gill Sans';        
+    }
+
+.header{
+    color:chocolate;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    
+}
+
+#fname{
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+
+} 
+.marg{
+    background-color:brown;
+}   
+ul{
+    list-style-position: inside;
+}
+
+a.link:link{
+    text-decoration: none;    
+}
+a.link:hover{
+    text-decoration: underline;
+}

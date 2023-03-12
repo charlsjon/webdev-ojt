@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.webportfoliobg{
+    background: rgb(106,141,115);
+    background: radial-gradient(circle, rgba(106,141,115,1) 35%, rgba(238,252,206,1) 100%);
+}
+
+/* Container */
+.container{
+    /* background-color: #6A8D73; */
+    width: 100%;
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    /* background-color: #EEFCCE; */
+    background: rgb(106,141,115);
+    background: linear-gradient(180deg, rgba(106,141,115,1) 35%, rgba(238,252,206,1) 100%);
+    opacity: 80%;
+    z-index: 2;   
+}
+
+/* Logo */
+.navbar .logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+/* Navigation Bar Menu */
+.navbar ul li{
+    display:inline-block;
+    list-style: none;
+    margin-right: 50px;    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* Navbar Effect */
+.navbar ul li a:hover{
+    color: rebeccapurple;
+}
+/* Panel 1 Content after navbar*/
+.yellowwrap{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+
+/* Welcome Message */
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-self: center;   
+
+}
+
+
+.intro h1{
+    font-size: 45px;
+    color: black;
+}
+.intro span{
+    text-shadow: 4px 4px 8px #ceca02; 
+}
+
+
+/* Download CV */
+.dlcv{
+    text-decoration: none;
+    border: solid;
+    color: black;
+    background-color: #EEFCCE;
+    padding: 3px
+}
+.dlcv:hover{
+    color: #ceca02;
+
+}
+
+/* Social Media */
+.socmed{
+    display: flex;
+    gap: 10px;
+}
+
+.yellowwrap .intro a{
+    text-decoration: none;
+}
+.yellowwrap .intro img:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+
+}
+
+
+.yellowwrap .intro img{
+    width: 50px;
+    height: 50px;
+}
+
+/* my image */
+#me{
+    width: 350px;
+    filter: drop-shadow(4px 4px 8px #ceca02);
+    z-index: 1;
+}
+
+
+
+
+/* About */
+
+.about{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    /* background-color: #D3C0CD; */
+}
+
+.about h1{
+    text-align: center;
+}
+/* Education */
+.educmain{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: #B19994; */
+    
+}
+.educmain h1{
+    text-align: center;
+}
+.educwrap{
+    display: flex;
+    gap: 2px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;    
+}
+.educmain .educwrap .schoollogo{
+    /* background-color: white; */
+    width: 100px;
+    height: 100px;
+}
+.school{
+    /* background-color: #62929E; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+
+/* Skill */
+.skill{
+    width: 100%;
+    /* background-color: #937666; */
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+.skill h1{
+    text-align: center;
+}
+
+.skill ul li{
+    list-style: none;
+    
+}
+
+.skillwrap1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.progtech{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+
+.langint{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+/* Contact */
+.contact{
+    width: 100%;
+    /* background-color: #744253; */
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+}
+.msgus{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    
+}
+label{
+    border: 0.5px;
+    width: 100%;
+}
+#yname{
+    padding: 10px 15px;
+    width: 100%;
+}
+#email{
+    padding: 10px 15px;
+    width: 100%;
+}
+#subj{
+    padding: 10px 15px;
+    width: 100%;
+}
+#msg{
+    padding: 12px 15px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+
+form button{    
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+
+form button:hover{
+    background-color: #ceca02;
+}
+
+
+
+
+.getin{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+.getin ul li{  
+    list-style: none;
+    padding: 5px;
+
+}
+
+.getin img{
+    width: 13px;
+    height: 13px;
+}
+
+.contact h1{
+    padding: 20px;
+}
+.contact span{
+    text-decoration: underline;
+    
+}
+

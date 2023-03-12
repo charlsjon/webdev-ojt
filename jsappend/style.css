@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.wrapper1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wrapper2{
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+
+}
+
+.section{
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+}
+
+.picture-input{
+    width: 250px;
+    height: 250px;
+}
+

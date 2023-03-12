@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Mono', monospace;
+    color: rgb(200, 216, 236);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(34, 41, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.wrapper{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 3px 21px rgb(44,62,82);;
+    background: rgb(44,62,82);
+    background: linear-gradient(135deg, rgba(44,62,82,1) 35%, rgba(253,116,106,1) 100%);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.wrapperleft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timein{
+    display: flex;
+    max-height: 11rem;
+    overflow: auto;
+    background-color: rgb(224, 90, 80);
+    padding: 1.5rem;
+    border-radius: 5px;
+    height: 11rem;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeout{
+    display: flex;
+    max-height: 350px;
+    overflow: auto;
+    background-color: rgba(44,62,82,1);
+    padding: 1.5rem;
+    border-radius: 5px;
+    height: 11rem;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-hour{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-minute{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-second{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-ampm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.wrapperright{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.out-hour{
+    display: flex;
+    flex-direction: column;
+}
+
+.out-minute{
+    display: flex;
+    flex-direction: column;
+}
+
+.out-second{
+    display: flex;
+    flex-direction: column;
+}
+
+.out-ampm{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeinout-button{
+    width: 100%;
+    display: flex;
+}
+.wrapperMid{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.timein-button{
+    width: 50%;
+    border-radius: 1rem;
+    border: rgba(44,62,82,1) solid;
+    color: black;
+}
+
+.timeout-button{
+    width: 50%;
+    border-radius: 1rem;
+    border: rgba(44,62,82,1) solid;
+    color: black;
+}
+
+.reload{
+    border-radius: 1rem;
+    border: rgba(44,62,82,1) solid;
+    color: black;
+}
+
+.timein-button:hover{
+    background-color: rgba(253,116,106,1);
+
+}
+
+.timeout-button:hover{
+    background-color: rgba(253,116,106,1);
+
+}
+
+.reload:hover{
+    background-color: rgba(253,116,106,1);
+
+}
